@@ -15,8 +15,8 @@
             <img
               :src="
                 currentLang === 'en'
-                  ? '/PersonalWebsite/images/en.png'
-                  : '/PersonalWebsite/images/zh.png'
+                  ? '/images/en.png'
+                  : '/images/zh.png'
               "
               class="language-flag"
               fit="contain"
@@ -49,7 +49,7 @@
         </div>
         <div class="profile-image-container">
           <el-image
-            src="/PersonalWebsite/images/info.png"
+            src="/images/info.png"
             fit="cover"
             class="profile-image"
           ></el-image>
@@ -175,7 +175,7 @@
               style="margin-right: 10px"
             >
               <img
-                src="/PersonalWebsite/images/Linkedin.png"
+                src="/images/Linkedin.png"
                 alt="LinkedIn"
                 style="vertical-align: middle; width: 50px; height: 50px"
               />
@@ -192,7 +192,7 @@
           >
             <el-link type="primary" @click="copyEmail">
               <img
-                src="/PersonalWebsite/images/email.png"
+                src="/images/email.png"
                 alt="Email"
                 style="vertical-align: middle; width: 50px; height: 50px"
               />
@@ -228,7 +228,7 @@ export default {
       projects: [
         {
           name: '7Link',
-          images: '/PersonalWebsite/images/project1.png',
+          images: '/images/project1.png',
           description:
             'This project is a system that aims to provide a comprehensive solution for property management, with efficient property management and convenient resident service functions. In this project, I was mainly responsible for the front-end and back-end development of the management system, and also undertook the design and development of some APIs for mobile applications.',
           role: 'Java Full Stack Development',
@@ -236,7 +236,7 @@ export default {
         },
         {
           name: 'Public Rental Housing Management System',
-          images: '/PersonalWebsite/images/project2.png',
+          images: '/images/project2.png',
           description:
             'This project is my graduation project, and I am independently responsible for the design and development, overcoming technical difficulties such as user authentication, token management, interface security, cross-origin requests, and error handling.',
           role: 'Java Full Stack Development',
@@ -420,7 +420,7 @@ body {
 /* 为首页添加额外的上边距 */
 .home-section {
   padding: 20px; /* 调整内边距 */
-  background-image: url('/PersonalWebsite/images/bg.jpg'); /* 添加背景图 */
+  background-image: url('/images/bg.jpg'); /* 添加背景图 */
   background-size: cover;
   background-position: center; /* 背景图居中 */
   background-repeat: no-repeat; /* 背景图不重复 */
