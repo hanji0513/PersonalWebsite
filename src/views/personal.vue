@@ -57,7 +57,7 @@
         <el-col :span="24" :lg="6" class="about-item-col">
           <div class="about-item">
             <h3 class="about-label">{{ t('Education background:') }}</h3>
-            <p class="about-text">{{ t("Peking University - Bachelor's Degree") }}</p>
+            <p class="about-text">{{ t("PuTian University - Bachelor's Degree") }}</p>
           </div>
         </el-col>
         <el-col :span="24" :lg="6" class="about-item-col">

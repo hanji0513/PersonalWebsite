@@ -19,7 +19,7 @@ export default {
     "Email": "邮箱",
     "Enter your email": "请输入您的邮箱",
     "Save": "保存",
-    "Peking University - Bachelor's Degree": "莆田学院 - 本科",
+    "PuTian University - Bachelor's Degree": "莆田学院 - 本科",
     "Chuan Yi Zhuo Yue - Java Full Stack Cloud Development": "传一卓越 - Java 全栈云开发",
     "Cspeed-Java Full-Stack Development Internship": "Cspeed-Java全栈开发实习",
     "Gardening, Raising Animals, Badminton": "种植、养动物、羽毛球",
