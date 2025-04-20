@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/PersonalWebsite/',
+  base: '/yixinliu.com/',
   // base: './',
   resolve: {
     alias: {
