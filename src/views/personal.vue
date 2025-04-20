@@ -42,7 +42,7 @@
     <section id="home" class="section home-section">
       <div class="home-content">
         <div class="home-info">
-          <h2 class="title" >Ethan Liu</h2>
+          <h2 class="title">Ethan Liu</h2>
           <p class="subtitle">
             {{ t('A full-stack developer focused on Java backend and Vue frontend development') }}
           </p>
@@ -420,7 +420,6 @@ body {
 
 /* 为首页添加额外的上边距 */
 .home-section {
-  padding: 20px; /* 调整内边距 */
   background-image: url('/images/bg.jpg'); /* 添加背景图 */
   background-size: cover;
   background-position: center; /* 背景图居中 */
@@ -519,8 +518,9 @@ body {
   }
   .profile-image {
     /* margin-top: 10%; */
-    margin-left: 4%;
+    margin-left: 0.5%;
     max-width: 390px; /* 图片的最大宽度 */
+    overflow: hidden;
   }
   .home-info {
     position: absolute; /* 绝对定位个人简介 */
