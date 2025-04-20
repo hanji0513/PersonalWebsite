@@ -13,11 +13,7 @@
         <el-menu-item>
           <div @click="toggleLanguage" class="language-button">
             <img
-              :src="
-                currentLang === 'en'
-                  ? '/images/en.png'
-                  : '/images/zh.png'
-              "
+              :src="currentLang === 'en' ? '/images/en.png' : '/images/zh.png'"
               class="language-flag"
               fit="contain"
             />
@@ -42,17 +38,13 @@
     <section id="home" class="section home-section">
       <div class="home-content">
         <div class="home-info">
-          <h2 class="title">Ethan Liu</h2>
+          <h2 class="title">{{t('Ethan Liu')}}</h2>
           <p class="subtitle">
             {{ t('A full-stack developer focused on Java backend and Vue frontend development') }}
           </p>
         </div>
         <div class="profile-image-container">
-          <el-image
-            src="/images/zip.png"
-            fit="cover"
-            class="profile-image"
-          ></el-image>
+          <el-image src="/images/zip.png" fit="cover" class="profile-image"></el-image>
         </div>
       </div>
     </section>
@@ -65,7 +57,9 @@
         <el-col :span="24" :lg="6" class="about-item-col">
           <div class="about-item">
             <h3 class="about-label">{{ t('Education background:') }}</h3>
-            <p class="about-text">{{ t("PuTian University - Bachelor's Degree") }}</p>
+            <p class="about-text">
+              {{ t("Bachelor's degree - Putian University - Software Engineering") }}
+            </p>
           </div>
         </el-col>
         <el-col :span="24" :lg="6" class="about-item-col">
@@ -95,7 +89,7 @@
     <section id="skills" class="section skills-section">
       <h1 class="section-title">{{ t('Skills') }}</h1>
       <h1 class="section-title"></h1>
-      <el-row  justify="center" class="skills-row">
+      <el-row justify="center" class="skills-row">
         <el-col :span="24" :lg="6">
           <h3>{{ t('Languages') }}</h3>
           <div class="skill-tags-container">
@@ -212,7 +206,7 @@ export default {
   data() {
     return {
       currentLang: 'en',
-      languages: ['Java', 'HTML','CSS', 'JavaScript', 'SQL'],
+      languages: ['Java', 'HTML', 'CSS', 'JavaScript', 'SQL'],
       frameworks: [
         'Spring Boot',
         'Spring Cloud',
@@ -225,7 +219,7 @@ export default {
         'Element Plus',
       ],
       databases: ['MySQL', 'Redis'],
-      tools: ['IDEA', 'VSCode', 'Git', 'Maven', 'Linux', 'Docker', 'Postman'],
+      tools: ['IDEA', 'VSCode', 'Git', 'Maven', 'Linux', 'Docker', 'Postman','Navicat'],
       projects: [
         {
           name: '7Link',
@@ -233,7 +227,7 @@ export default {
           description:
             'This project is a system that aims to provide a comprehensive solution for property management, with efficient property management and convenient resident service functions. In this project, I was mainly responsible for the front-end and back-end development of the management system, and also undertook the design and development of some APIs for mobile applications.',
           role: 'Java Full Stack Development',
-          techStack: ['Vue.js', 'Element Plus', 'MySQL', 'MyBatis-Plus', 'Spring BladeX'],
+          techStack: ['Spring BladeX', 'MyBatis-Plus', 'Vue.js', 'Element Plus', 'MySQL', 'Redis'],
         },
         {
           name: 'Public Rental Housing Management System',
