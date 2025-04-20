@@ -557,11 +557,6 @@ body {
   .skills-row .el-col {
     margin-bottom: 15px;
   }
-  /* 为移动端添加边距 */
-  .about-section,
-  .skills-section {
-    padding: 30px 15px; /* 增加移动端边距 */
-  }
   /* 为移动设备上的项目详情调整样式 */
   .description-label {
     width: 100%;
