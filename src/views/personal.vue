@@ -371,7 +371,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* 居中对齐 */
-  margin: 0 -5px;
+  /* margin: 0 -5px; */
 }
 
 /* 技能标签样式 */
