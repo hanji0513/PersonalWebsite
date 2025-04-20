@@ -42,14 +42,14 @@
     <section id="home" class="section home-section">
       <div class="home-content">
         <div class="home-info">
-          <h2 class="title">Ethan Liu</h2>
+          <h2 class="title" >Ethan Liu</h2>
           <p class="subtitle">
             {{ t('A full-stack developer focused on Java backend and Vue frontend development') }}
           </p>
         </div>
         <div class="profile-image-container">
           <el-image
-            src="/images/info.png"
+            src="/images/zip.png"
             fit="cover"
             class="profile-image"
           ></el-image>
@@ -212,10 +212,11 @@ export default {
   data() {
     return {
       currentLang: 'en',
-      languages: ['Java', 'HTML/CSS', 'JavaScript', 'SQL'],
+      languages: ['Java', 'HTML','CSS', 'JavaScript', 'SQL'],
       frameworks: [
         'Spring Boot',
         'Spring Cloud',
+        'Spring MVC',
         'MyBatis',
         'MyBatis-Plus',
         'Vue.js',
@@ -514,17 +515,16 @@ body {
   .profile-image-container {
     justify-content: flex-end; /* 靠右对齐图片 */
     width: 100%; /* 图片容器占据整个宽度 */
-    max-width: 300px; /* 图片容器的最大宽度 */
-    margin-bottom: 10px; /* 图片和文本之间的间距 */
+    max-width: 390px; /* 图片容器的最大宽度 */
   }
   .profile-image {
-    margin-top: 10%;
-    margin-left: 28%;
-    max-width: 250px; /* 图片的最大宽度 */
+    /* margin-top: 10%; */
+    margin-left: 4%;
+    max-width: 390px; /* 图片的最大宽度 */
   }
   .home-info {
     position: absolute; /* 绝对定位个人简介 */
-    top: 120px; /* 距离顶部的距离，调整后的位置 */
+    top: 250px; /* 距离顶部的距离，调整后的位置 */
     left: 20px; /* 距离左侧的距离 */
     text-align: left; /* 文本左对齐 */
     width: calc(100% - 40px); /* 确保简介不会超出屏幕 */
