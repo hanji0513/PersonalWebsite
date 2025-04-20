@@ -72,8 +72,8 @@
         </el-col>
         <el-col :span="24" :lg="6" class="about-item-col">
           <div class="about-item">
-            <h3 class="about-label">{{ t('Internship experience:') }}</h3>
-            <p class="about-text">{{ t('Cspeed-Java Full-Stack Development Internship') }}</p>
+            <h3 class="about-label">{{ t('Work Experience:') }}</h3>
+            <p class="about-text">{{ t('Cspeed - Java Full-Stack Development Internship') }}</p>
           </div>
         </el-col>
         <el-col :span="24" :lg="6" class="about-item-col">
