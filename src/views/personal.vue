@@ -95,7 +95,7 @@
     <section id="skills" class="section skills-section">
       <h1 class="section-title">{{ t('Skills') }}</h1>
       <h1 class="section-title"></h1>
-      <el-row :gutter="20" justify="center" class="skills-row">
+      <el-row  justify="center" class="skills-row">
         <el-col :span="24" :lg="6">
           <h3>{{ t('Languages') }}</h3>
           <div class="skill-tags-container">
