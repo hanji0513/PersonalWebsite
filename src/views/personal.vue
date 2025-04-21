@@ -13,7 +13,7 @@
         <el-menu-item>
           <div @click="toggleLanguage" class="language-button">
             <img
-              :src="currentLang === 'en' ? '../images/en.png' : '../images/zh.png'"
+              :src="currentLang === 'en' ? 'images/en.png' : 'images/zh.png'"
               class="language-flag"
               fit="contain"
             />
@@ -44,7 +44,7 @@
           </p>
         </div>
         <div class="profile-image-container">
-          <el-image src="../images/zip.png" fit="cover" class="profile-image"></el-image>
+          <el-image src="images/zip.png" fit="cover" class="profile-image"></el-image>
         </div>
       </div>
     </section>
@@ -223,7 +223,7 @@ export default {
       projects: [
         {
           name: '7Link',
-          images: '../images/project1.png',
+          images: 'images/project1.png',
           description:
             'This project is a system that aims to provide a comprehensive solution for property management, with efficient property management and convenient resident service functions. In this project, I was mainly responsible for the front-end and back-end development of the management system, and also undertook the design and development of some APIs for mobile applications.',
           role: 'Java Full Stack Development',
@@ -231,7 +231,7 @@ export default {
         },
         {
           name: 'Public Rental Housing Management System',
-          images: '../images/project2.png',
+          images: 'images/project2.png',
           description:
             'This project is my graduation project, and I am independently responsible for the design and development, overcoming technical difficulties such as user authentication, token management, interface security, cross-origin requests, and error handling.',
           role: 'Java Full Stack Development',
