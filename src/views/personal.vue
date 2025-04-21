@@ -40,7 +40,7 @@
         <div class="home-info">
           <h2 class="title">{{t('Ethan Liu')}}</h2>
           <p class="subtitle">
-            {{ t('A full-stack developer focused on Java backend and Vue frontend development') }}
+            {{ t('A full-stack developer focused on Java Back End and Vue Front End developer') }}
           </p>
         </div>
         <div class="profile-image-container">
@@ -66,14 +66,14 @@
           <div class="about-item">
             <h3 class="about-label">{{ t('Technical training experience:') }}</h3>
             <p class="about-text">
-              {{ t('Chuan Yi Zhuo Yue - Java Full Stack Cloud Development') }}
+              {{ t('Chuan Yi Zhuo Yue - Java Full Stack Cloud Developer') }}
             </p>
           </div>
         </el-col>
         <el-col :span="24" :lg="6" class="about-item-col">
           <div class="about-item">
             <h3 class="about-label">{{ t('Work Experience:') }}</h3>
-            <p class="about-text">{{ t('Cspeed - Java Full-Stack Development Internship') }}</p>
+            <p class="about-text">{{ t('Cspeed - Java Full-StackDeveloper Internship') }}</p>
           </div>
         </el-col>
         <el-col :span="24" :lg="6" class="about-item-col">
@@ -225,8 +225,8 @@ export default {
           name: '7Link',
           images: 'images/project1.png',
           description:
-            'This project is a system that aims to provide a comprehensive solution for property management, with efficient property management and convenient resident service functions. In this project, I was mainly responsible for the front-end and back-end development of the management system, and also undertook the design and development of some APIs for mobile applications.',
-          role: 'Java Full Stack Development',
+            'This project is a system that aims to provide a comprehensive solution for property management, with efficient property management and convenient resident service functions. In this project, I was mainly responsible for the front-end and back-end developer of the management system, and also undertook the design and developer of some APIs for mobile applications.',
+          role: 'Java Full Stack Developer',
           techStack: ['Spring BladeX', 'MyBatis-Plus', 'Vue.js', 'Element Plus', 'MySQL', 'Redis'],
         },
         {
@@ -234,7 +234,7 @@ export default {
           images: 'images/project2.png',
           description:
             'This project is my graduation project, and I am independently responsible for the design and development, overcoming technical difficulties such as user authentication, token management, interface security, cross-origin requests, and error handling.',
-          role: 'Java Full Stack Development',
+          role: 'Java Full Stack Developer',
           techStack: [
             'Spring Cloud',
             'Redis',
