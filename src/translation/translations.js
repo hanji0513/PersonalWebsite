@@ -22,7 +22,7 @@ export default {
     "Save": "保存",
     "Bachelor's degree - Putian University - Software Engineering": "本科 - 莆田学院 - 软件工程",
     "Chuan Yi Zhuo Yue - Java Full Stack Cloud Developer": "传一卓越 - Java 全栈云开发",
-    "Cspeed - Java Full-Stack Developer Internship": "Cspeed - Java全栈开发实习",
+    "Cspeed - Java Full-Stack Developer Internship": "Cspeed - Java 全栈开发实习",
     "Gardening, Raising Animals, Badminton": "种植、养动物、羽毛球",
     "Name": "姓名",
     "You have copied my Email": "您已复制我的邮箱",
