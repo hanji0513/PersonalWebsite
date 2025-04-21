@@ -40,7 +40,7 @@
         <div class="home-info">
           <h2 class="title">{{t('Ethan Liu')}}</h2>
           <p class="subtitle">
-            {{ t('A full-stack developer focused on Java Back End and Vue Front End developer') }}
+            {{ t('A full-stack developer focused on Java Back End and Vue Front End development') }}
           </p>
         </div>
         <div class="profile-image-container">

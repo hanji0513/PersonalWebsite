@@ -5,7 +5,7 @@ export default {
     "Home": "主页",
     "Projects": "项目",
     "Contact me": "联系我",
-    "A full-stack developer focused on Java Back End and Vue Front End developer": "一名专注于 Java 后端和 Vue 前端开发的全栈开发者",
+    "A full-stack developer focused on Java Back End and Vue Front End development": "一名专注于 Java 后端和 Vue 前端开发的全栈开发者",
     "Education background:": "教育背景:",
     "Technical training experience:": "技术培训经历:",
     "Work Experience:": "工作经历:",
