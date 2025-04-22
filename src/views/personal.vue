@@ -165,7 +165,7 @@
           >
             <el-link
               type="primary"
-              href="https://www.linkedin.com/in/yixin-liu-27b77b358 "
+              href="https://www.linkedin.com/in/ethan-liu-27b77b358/"
               style="margin-right: 10px"
             >
               <img
