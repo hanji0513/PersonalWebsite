@@ -1,9 +1,9 @@
-name = "Personal-Website"
+name = "personal-website"  # 修改为小写字母和短横线
 compatibility_date = "2025-04-23"
 
 [site]
 bucket = "./dist"  # 指向你的 Vue 构建输出目录
 entry-point = "/index.html"  # 指向你的入口文件
 
-[routes]
+[[routes]]  # 注意这里是双方括号，表示一个数组
 pattern = "/*"  # 匹配所有路径，确保所有请求都被重定向到 index.html
