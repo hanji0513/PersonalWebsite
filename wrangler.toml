@@ -1,9 +1,10 @@
 name = "personal-website"
 compatibility_date = "2025-04-23"
+main = "/index.html"
 
 [site]
 bucket = "./dist"
-entry-point = "/index.html"
 
-[[routes]]
-pattern = "/*"
+routes = [
+  "/*"
+]
