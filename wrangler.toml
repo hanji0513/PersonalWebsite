@@ -1,5 +1,8 @@
 name = "personal"
 compatibility_date = "2025-04-23"
 
+# 添加 main 字段，指定 Worker 入口文件
+main = "workers-site/index.js"
+
 [site]
-bucket = "./dist"
+bucket = "./dist"  # 使用构建后的 dist 目录
