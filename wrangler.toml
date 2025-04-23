@@ -1,14 +1,6 @@
-name = "personal"
+name = "personal-website"
 compatibility_date = "2025-04-23"
-main = "/index.html"  # 替换弃用的 site.entry-point
+main = "./dist/index.html"
 
 [site]
 bucket = "./dist"
-
-# 新版路由配置方式（选择其中一种）:
-
-# 方式1：简单字符串格式（推荐）
-routes = [
-  "/*"
-]
-
