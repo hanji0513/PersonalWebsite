@@ -4,8 +4,3 @@ main = "./dist/index.html"
 
 [site]
 bucket = "./dist"
-
-# 假设你部署到 example.com
-routes = [
-  { pattern = "/*", zone_name = "yixinliu.com" }
-]
