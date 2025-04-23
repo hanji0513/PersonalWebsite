@@ -1,8 +1,9 @@
 name = "personal"
-compatibility_date = "2025-04-23"
+type = "static"
 
-# 添加 main 字段，指定 Worker 入口文件
-main = "workers-site/index.js"
+account_id = "c34ecd28b0bb381db77c345c273546f8"
+zone_id = "5e1e5e06fd4ae2e3fec967a2fea694bd"
 
-[site]
-bucket = "./dist"  # 使用构建后的 dist 目录
+[env.production]
+target = "pages"
+project = "personal"
