@@ -176,7 +176,7 @@
               <span style="margin-top: 10px; font-size: 15px; margin-left: 5px">LinkedIn</span>
             </el-link>
           </div>
-          <div
+          <!-- <div
             style="
               display: inline-flex;
               flex-direction: column;
@@ -192,7 +192,7 @@
               />
               <span style="margin-top: 10px; font-size: 15px; margin-left: 5px">Email</span>
             </el-link>
-          </div>
+          </div> -->
         </el-col>
       </el-row>
     </section>
